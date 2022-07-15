@@ -59,8 +59,8 @@ section .main .searchbox .search{
 }
 section .main .searchbox .icon{
     position: absolute;
-    width: 34%;
-    top: 347;
+    width: 66%;
+    top: 273;
     display: flex;
     padding: 12px 20px;
     justify-content: space-between;
@@ -107,7 +107,7 @@ footer{
 }
 .list2{
     list-style: none;
-    width: 5%;
+    width: 20%;
     display: flex;
 }
 footer a{
