@@ -5,14 +5,114 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
+    position: relative;
+    width: 100%;
+    justify-content: center;
     align-items: center;
-    justify-content: centern;
+    min-height: 40%;
 }
-header nav{
+header section ul{
     position: absolute;
-    display: flex;
     justify-content: flex-end;
+    width: 92%;
+    display: flex;
 }
-header nav ul{
+header section ul li{
+    list-style: none;
+    margin: 15px;
 
+}
+header section ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    font-weight: bold;
+}
+header section ul li button{
+    background-color: rgb(43, 43, 224);
+    border: none;
+    padding: 5px 10px;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+section .main{
+    justify-content: center;
+    margin-left: 35%;
+}
+section .main .google{
+    width: 30%;
+    margin-left: 100px;
+}
+section .main .searchbox{
+    width: 100%;
+    margin-top: 15px;
+}
+section .main .searchbox .search{
+    padding: 7px 150px;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    outline: none;
+    font-size: 16px;
+}
+section .main .searchbox .icon{
+    position: absolute;
+    width: 34%;
+    top: 347;
+    display: flex;
+    padding: 12px 20px;
+    justify-content: space-between;
+
+}
+section .main .buttons{
+    align-self: center;
+    margin-top: 10px;
+    margin-left: 12%;
+}
+section .main .buttons button{
+    padding: 8px 20px;
+    margin: 10px;
+    background-color: rgb(249, 241, 241);
+    border: none;
+    cursor: pointer;
+
+}
+#button{
+    margin-top: 5px;
+    margin-left: 18%;
+    padding: 8px 20px;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+section .main .buttons button:hover{
+    border-radius: 1px solid red;
+}
+footer{
+    margin-top: 10%;
+}
+.footer{
+    display: flex;justify-content: space-between;
+    width: 90%;
+
+}
+.list1{
+    list-style: none;
+    width: 80%;
+    display: flex;
+    margin-left: 0%;
+}
+.list2{
+    list-style: none;
+    width: 5%;
+    display: flex;
+}
+footer a{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 13px;
+    color: rgb(96, 70, 70);
 }
